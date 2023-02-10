@@ -1,6 +1,5 @@
 ## setup-cordova
 
-[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/oxr463/setup-cordova/main.yml?branch=master&style=flat-square)](https://github.com/oxr463/setup-cordova/actions)
 
 Setup your GitHub Actions workflow with Apache Cordova.
 
@@ -9,8 +8,8 @@ Setup your GitHub Actions workflow with Apache Cordova.
 ## Example
 
 ```yaml
-- name: Use oxr463/setup-cordova
-  uses: oxr463/setup-cordova@0.0.3
+- name: Use RedstonePfalz/setup-cordova
+  uses: RedstonePfalz/setup-cordova@0.0.4
   with:
     exec: |
       cordova platform add android && \
