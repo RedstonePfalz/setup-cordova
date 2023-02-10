@@ -1,10 +1,10 @@
-name: "Setup Cordova"
+name: "Setup Cordova - RedstonePfalz"
 description: "Setup your GitHub Actions workflow with Apache Cordova."
 inputs:
   exec:
     description: "Apache Cordova command to execute"
     required: true
-author: "oxr463"
+author: "RedstonePfalz"
 branding:
   color: black
   icon: smartphone
